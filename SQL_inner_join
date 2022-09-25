@@ -1,0 +1,7 @@
+// sql query to find the id with a date max when this id is not a unique key in a table
+
+SELECT *
+FROM TABLE_A as A
+INNER JOIN ( SELECT id, max(date) as maxDate 
+              FROM TABLE_A GROUP BY id ) as s1
+ON A.id = s.id and A.date = s1.maxDate
