@@ -31,3 +31,7 @@ set mouse=          " Active la souris, dans tous les modes (note il faudra alor
 set nocompatible
 
 set backspace=indent,eol,start
+
+
+ce lien peut aussi aider quand certains mot-clés ne sont pas reconnus
+https://askubuntu.com/questions/284957/vi-getting-multiple-sorry-the-command-is-not-available-in-this-version-af
